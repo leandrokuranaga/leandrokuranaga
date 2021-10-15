@@ -2,7 +2,7 @@
 ---
 ### I’m a Computer Scientist, currently working on Transdata with Fullstack Development.
 
-* I’m currently working with .Net, SQL Server, MongoDB.
+* I’m currently working with .Net, SQL Server, MongoDB and React.
 
 ### Contact me at:
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leandrokuranaga/)
