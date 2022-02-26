@@ -1,8 +1,8 @@
 ### Hi there 👋
 ---
-### I’m a Computer Scientist, currently working on Transdata with Fullstack Development.
+### I’m a Computer Scientist, currently working on Sonda with Fullstack Development.
 
-* I’m currently working with .Net, SQL Server, MongoDB and React.
+* I’m currently working with .Net, SQL Server, integrations API's.
 
 ### Contact me at:
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leandrokuranaga/)
