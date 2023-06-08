@@ -2,7 +2,7 @@
 ---
 ### I’m a Computer Scientist, currently working on Stefanini as a Fullstack Development(dotnet + angular).
 
-* I’m currently working with
+I’m currently working with:
 
 - Angular 14 (Typescript, Javascript)
 - .Net Core 
