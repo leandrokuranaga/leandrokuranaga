@@ -2,7 +2,22 @@
 ---
 ### I’m a Computer Scientist, currently working on Stefanini as a Fullstack Development(dotnet + angular).
 
-* I’m currently working with .Net, SQL Server, integrations API's.
+* I’m currently working with
+
+- Angular 14 (Typescript, Javascript)
+- .Net Core 
+- Azure
+- Agile Methodology (SAFe)
+- Refinement (Technical, Functional)
+- Jira, Confluence
+- Unit Tests (XUnit, Karma + Jasmine)
+- Legacys (.Net Framework, AngularJS)
+- SQL Server
+- Redis (NoSQL)
+- Azure Function
+- Git (Gitflow, CI/CD)
+- Chapters
+- Systems Integrations (SAP, SalesForce, PIX)
 
 ### Contact me at:
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leandrokuranaga/)
