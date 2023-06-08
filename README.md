@@ -1,6 +1,6 @@
 ### Hi there 👋
 ---
-### I’m a Computer Scientist, currently working on Stefanini with Fullstack Development.
+### I’m a Computer Scientist, currently working on Stefanini as a Fullstack Development(dotnet + angular).
 
 * I’m currently working with .Net, SQL Server, integrations API's.
 
