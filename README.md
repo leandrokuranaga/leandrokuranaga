@@ -1,6 +1,6 @@
 ### Hi there 👋
 ---
-### I’m a Computer Scientist(Unip - Campinas/São-Paulo - 2016-2020) and Software Engineer(PUC - São-Paulo - 2021-2025), currently working on Stefanini as a Fullstack Development(dotnet + angular).
+### I’m a Computer Scientist(Unip - Campinas/São-Paulo - 2016-2020) and Software Engineer(PUC - São-Paulo - 2021-2024), currently working on Stefanini as a Fullstack Development(dotnet + angular).
 
 I’m currently working with:
 
