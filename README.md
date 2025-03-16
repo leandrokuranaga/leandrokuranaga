@@ -1,6 +1,6 @@
 # 👋 Olá! Eu sou Leandro Kuranaga
 
-**🚀 Desenvolvedor C# | Arquitetura de Software | Cloud Enthusiast**
+**🚀 Desenvolvedor C# | Arquitetura de Software**
 
 🎯 Buscando sempre aprimorar minhas habilidades técnicas e explorar novas tecnologias.  
 📍 Indaiatuba - São Paulo, Brasil
