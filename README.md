@@ -32,7 +32,7 @@
 
 
 ## 📬 Como me encontrar
-📧 **E-mail:** [le.s.kuranaga@email.com](mailto:le.s.kuranaga@hotmail.com)  
+📧 **E-mail:** [le.s.kuranaga@hotmail.com](mailto:le.s.kuranaga@hotmail.com)  
 🔗 **LinkedIn:** [linkedin.com/in/leandrokuranaga](https://www.linkedin.com/in/leandrokuranaga/)  
 📌 **GitHub:** [github.com/leandrokuranaga](https://github.com/leandrokuranaga/)  
 
