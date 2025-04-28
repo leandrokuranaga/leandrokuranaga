@@ -1,41 +1,40 @@
-# 👋 Olá! Eu sou Leandro Kuranaga
+# 👋 Hello! I'm Leandro Kuranaga
 
-**🚀 Desenvolvedor C# | Arquitetura de Software**
+**🚀 C# Developer | Software Architecture**
 
-🎯 Buscando sempre aprimorar minhas habilidades técnicas e explorar novas tecnologias.  
-📍 Indaiatuba - São Paulo, Brasil
-
----
-
-## 🚀 Sobre mim
-- 👨‍💻 Desenvolvedor com mais de **6 anos de experiência** em **C#, .NET, SQL Server e Azure**  
-- 🏗️ Atualmente focado em **arquitetura de software**  
-- 💡 Apaixonado por aprender e compartilhar conhecimento sobre tecnologia  
+🎯 Always striving to improve my technical skills and explore new technologies.  
+📍 Indaiatuba - São Paulo, Brazil
 
 ---
 
-## 🛠️ Tecnologias e Ferramentas
+## 🚀 About Me
+- 👨‍💻 Developer with over **6 years of experience** in **C#, .NET, SQL Server, and Azure**  
+- 🏗️ Currently focused on **software architecture**  
+- 💡 Passionate about learning and sharing knowledge about technology  
 
-### 📌 **Principais Tecnologias**
+---
+
+## 🛠️ Technologies and Tools
+
+### 📌 **Main Technologies**
 - 🟣 **C#**, **.NET**
 - 🗄️ **SQL Server**, **PostgreSQL**
 - ☁️ **Azure**
 - 🌐 **React**, **Node.js**
 - 🐳 **Docker**
 
-### 🔧 **Ferramentas**
-- ⚙️ **Visual Studio**, 
+### 🔧 **Tools**
+- ⚙️ **Visual Studio** 
 - 🔁 **Azure DevOps**, **GitHub Actions**
 - 🏗 **Kubernetes**
 
 ---
 
-
-## 📬 Como me encontrar
-📧 **E-mail:** [le.s.kuranaga@hotmail.com](mailto:le.s.kuranaga@hotmail.com)  
+## 📬 How to Reach Me
+📧 **Email:** [le.s.kuranaga@hotmail.com](mailto:le.s.kuranaga@hotmail.com)  
 🔗 **LinkedIn:** [linkedin.com/in/leandrokuranaga](https://www.linkedin.com/in/leandrokuranaga/)  
 📌 **GitHub:** [github.com/leandrokuranaga](https://github.com/leandrokuranaga/)  
 
 ---
 
-🚀 *Sempre em busca de evolução e novos desafios!*
+🚀 *Always seeking growth and new challenges!*
