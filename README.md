@@ -21,7 +21,7 @@
 
 I am a Computer Scientist with a Bachelor's degree from UNIP - Universidade Paulista, Software Engineer with a postgraduate degree from PUC-SP, and studying Software Architecture on FIAP. I am a software developer with 6 years' experience.
 
-I have knowledge and experience in C#, .NET, .Net Core, . Net Framework, DDD, TDD, Unit Testing, HTML, CSS, Bootstrap, JavaScript, Angular, React, Typescript, SQL Server, T-SQL, API Rest, MVC, MongoDB, Azure Devops, Redis, CI/CD, Scrum, Kanban, XUnit, Jasmine, Entity Framework, Dapper, Microservices, Service Bus, Functions, Docker, GIT, IIS, Rest, RESTful Api, Clean architecture, Dependency Injection, Design Patterns, Jira, Confluence, Sonar, Mensageria, Github, Gitlab, WebApi, OpenAPI. As well as integrations with SAP, SalesForce, Protheus, Genesys, Pix.
+I have knowledge and experience in C#, .NET, .Net Core, .Net Framework, DDD, TDD, Unit Testing, HTML, CSS, Bootstrap, JavaScript, Angular, React, Typescript, SQL Server, T-SQL, API Rest, MVC, MongoDB, Azure Devops, Redis, CI/CD, Scrum, Kanban, XUnit, Jasmine, Entity Framework, Dapper, Microservices, Service Bus, Functions, Docker, GIT, IIS, Rest, RESTful Api, Clean architecture, Dependency Injection, Design Patterns, Jira, Confluence, Sonar, Message broker, Github, Gitlab, WebApi, OpenAPI. As well as integrations with SAP, SalesForce, Protheus, Genesys, Pix.
 
 <a href="https://leandrokuranaga.github.io/portfolio/" target="_blank">Check out my website</a>
 
