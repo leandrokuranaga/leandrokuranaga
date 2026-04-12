@@ -49,8 +49,3 @@ BSc in Computer Science (UNIP) | Postgraduate in Software Engineering (PUC-SP) |
 
 <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/> <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white"/>
 
----
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=leandrokuranaga&layout=compact&theme=dark&hide_border=true&bg_color=0f172a&title_color=14b8a6&text_color=94a3b8" alt="Top Languages"/>
-</p>
