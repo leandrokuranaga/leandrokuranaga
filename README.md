@@ -25,9 +25,9 @@
 
 ### About me
 
-Backend engineer currently at **Andritz**, working with global teams across Brazil, Canada, and Germany. Previously built enterprise integrations at **Stefanini** (Raizen — SAP, Salesforce, Pix) and automated systems at **Sonda**.
+I'm a backend-focused engineer who enjoys designing systems that scale. Currently at **Andritz**, collaborating daily with teams in Germany and Canada to build industrial optimization solutions. Before that, I worked on enterprise integrations at **Stefanini** and automated platforms at **Sonda**.
 
-BSc in Computer Science (UNIP) | Postgraduate in Software Engineering (PUC-SP) | Software Architecture (FIAP)
+I care about clean architecture, well-tested code, and solving real problems with simple solutions.
 
 ---
 
