@@ -5,7 +5,7 @@
 <h1 align="center">Leandro Kuranaga</h1>
 
 <p align="center">
-  <strong>Software Engineer</strong> with 8+ years building scalable backend systems with <strong>.NET</strong> and <strong>Azure</strong>.<br/>
+  <strong>Software Engineer</strong> building scalable backend systems with <strong>.NET</strong> and <strong>Azure</strong> since 2019.<br/>
   Focused on distributed architecture, CQRS, event-driven design, and cloud-native solutions.
 </p>
 
