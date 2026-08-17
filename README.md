@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="https://leandrokuranaga.github.io/portfolio/" target="_blank">
+  <a href="https://www.lkuranaga.com" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-0d9488?style=for-the-badge&logo=google-chrome&logoColor=white"/>
   </a>
   <a href="https://www.linkedin.com/in/leandrokuranaga/" target="_blank">
