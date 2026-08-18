@@ -1,51 +1,63 @@
-<img src="src/assets/Gif_Lofi_GitHub.gif" alt="Cover" width="1920px" align="center">
+# Leandro Kuranaga
 
-![](https://komarev.com/ghpvc/?username=leandrokuranaga&color=0d9488)
+**Backend & AI Engineer.** 8 years building .NET and Azure distributed systems, now
+building the agent tooling that runs on top of them: MCP servers, guardrails and
+evaluation suites, not just tool usage.
 
-<h1 align="center">Leandro Kuranaga</h1>
+[![Portfolio](https://img.shields.io/badge/Portfolio-lkuranaga.com-2FB4CE?style=flat-square&logo=google-chrome&logoColor=white)](https://www.lkuranaga.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-leandrokuranaga-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leandrokuranaga/)
+[![Email](https://img.shields.io/badge/Email-le.s.kuranaga-2FB4CE?style=flat-square&logo=maildotru&logoColor=white)](mailto:le.s.kuranaga@hotmail.com)
 
-<p align="center">
-  <strong>Software Engineer</strong> building scalable backend systems with <strong>.NET</strong> and <strong>Azure</strong> since 2019.<br/>
-  Focused on distributed architecture, CQRS, event-driven design, and cloud-native solutions.
-</p>
+Currently at **Andritz**, working daily in English with teams in Germany and Canada on
+industrial optimization. Before that, enterprise integrations at **Stefanini** (client
+Raízen) and conversational automation at **Sonda** for Claro, Vivo, Embraer and Sodexo.
 
-<p align="center">
-  <a href="https://www.lkuranaga.com" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-0d9488?style=for-the-badge&logo=google-chrome&logoColor=white"/>
-  </a>
-  <a href="https://www.linkedin.com/in/leandrokuranaga/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="mailto:le.s.kuranaga@hotmail.com">
-    <img src="https://img.shields.io/badge/Email-0d9488?style=for-the-badge&logo=microsoft-outlook&logoColor=white"/>
-  </a>
-</p>
+Remote, based in Indaiatuba, SP, Brazil. Open to opportunities.
 
----
+## Systems I've shipped
 
-### About me
+**Industrial optimization platform** · Andritz
+Plant sensor reads were degrading in SQL Server and calibration still depended on
+manual operator adjustment. Split the write path into Kafka streaming plus a dedicated
+InfluxDB time-series store, with AI/ML optimization feeding calibration back to
+operators. **3x faster analytical queries, 40% less manual calibration time.**
 
-I'm a backend-focused engineer who enjoys designing systems that scale. Currently at **Andritz**, collaborating daily with teams in Germany and Canada to build industrial optimization solutions. Before that, I worked on enterprise integrations at **Stefanini** and automated platforms at **Sonda**.
+**CSOnline, enterprise integration** · Stefanini / Raízen
+SAP, Salesforce and Pix payments had to converge into one fuel distribution platform
+without coupling the systems to each other. Event-driven core: the .NET API publishes
+to Azure Service Bus topics, independent workers consume at-least-once with dead-letter
+handling, so a slow downstream never blocks a payment. **13,000+ monthly users.**
 
-I care about clean architecture, well-tested code, and solving real problems with simple solutions.
+**Conversational automation** · Sonda
+Claro, Vivo, Embraer and Sodexo needed to absorb high interaction volumes without
+growing support headcount. Intent handling and dialog flows in ASP.NET orchestrated
+through Blip, with explicit fallback routing so anything the classifier could not match
+reached a human instead of failing.
 
----
+Each one is drawn as a real architecture diagram on [lkuranaga.com](https://www.lkuranaga.com).
 
-### Tech Stack
+## Agentic engineering
 
-**Backend**
+Most engineers consume AI tools. I build the harness they run on.
 
-<img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white"/> <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white"/> <img src="https://img.shields.io/badge/CQRS-0d9488?style=for-the-badge&logoColor=white"/> <img src="https://img.shields.io/badge/DDD-0d9488?style=for-the-badge&logoColor=white"/>
+- **Custom agent tooling** — MCP servers, subagents, hooks and reusable skills on the Claude Agent SDK
+- **Harness & loop engineering** — a CLI-first agentic pipeline adopted by the team: design context via MCP, automated code review, Playwright E2E, spec-driven delivery
+- **Evaluation & guardrails** — regression prompt suites, deterministic assertions over structured responses, review gates that block off-spec generations before merge
+- **Retrieval** — Azure AI Search with RAG patterns: chunking, embeddings, vector search
+- **AI security** — least-privilege tool scoping and human-in-the-loop approval on agent workflows
 
-**Cloud & DevOps**
+## Stack
 
-<img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white"/> <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
+Ranked by how deep the ownership goes, not alphabetically.
 
-**Databases**
+**Core** — .NET 8 / Core, C#, Azure, SQL Server, event-driven architecture, DDD, CQRS, REST APIs, xUnit
 
-<img src="https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/> <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
+**Fluent** — Claude Agent SDK, MCP servers, Semantic Kernel, Azure AI Search, Azure AI Foundry, LLM evaluation, guardrails, RAG, Python, React, TypeScript, Angular, Service Bus, Kafka, Redis, PostgreSQL, InfluxDB, Terraform, AWS, Docker, Playwright, Git / CI-CD
 
-**Frontend**
+**Exposed** — Kubernetes, MongoDB, ElasticSearch, KurrentDB, Blip, SAP / Salesforce
 
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/> <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white"/>
+## Education
 
+Postgraduate in Quantum Computing (PUC Minas, from Sep 2026) · Specialization in
+Software Architecture (FIAP) · Postgraduate in Software Engineering (PUC-SP) ·
+B.Sc. Computer Science (UNIP)
