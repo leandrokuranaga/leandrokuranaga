@@ -1,63 +1,81 @@
 # Leandro Kuranaga
 
-**Backend & AI Engineer.** 8 years building .NET and Azure distributed systems, now
-building the agent tooling that runs on top of them: MCP servers, guardrails and
-evaluation suites, not just tool usage.
+**AI Engineer · Engenheiro de Software Sênior.** Mais de 8 anos colocando sistemas .NET em
+produção no Azure e na AWS, e construindo o ferramental de agentes que roda em cima deles:
+MCP servers, times de agentes, suítes de avaliação e guardrails.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-lkuranaga.com-2FB4CE?style=flat-square&logo=google-chrome&logoColor=white)](https://www.lkuranaga.com)
+[![Portfólio](https://img.shields.io/badge/Portf%C3%B3lio-lkuranaga.com-2FB4CE?style=flat-square&logo=google-chrome&logoColor=white)](https://www.lkuranaga.com/pt/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-leandrokuranaga-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/leandrokuranaga/)
 [![Email](https://img.shields.io/badge/Email-le.s.kuranaga-2FB4CE?style=flat-square&logo=maildotru&logoColor=white)](mailto:le.s.kuranaga@hotmail.com)
 
-Currently at **Andritz**, working daily in English with teams in Germany and Canada on
-industrial optimization. Before that, enterprise integrations at **Stefanini** (client
-Raízen) and conversational automation at **Sonda** for Claro, Vivo, Embraer and Sodexo.
+Hoje sou **AI Engineer na Marlabs**, num time da **PracticeTek** na Califórnia, construindo SaaS
+multi-cliente para laboratórios odontológicos. Antes passei pela **Andritz** (IIoT industrial,
+com times na Alemanha e no Canadá), pela **Stefanini** (Raízen/Shell e produtos de IA generativa)
+e pela **Sonda** (automação e chatbots para Claro, Vivo, Embraer e Sodexo).
 
-Remote, based in Indaiatuba, SP, Brazil. Open to opportunities.
+Remoto, em Indaiatuba, SP. Aberto a oportunidades.
 
-## Systems I've shipped
+## Sistemas que entreguei
 
-**Industrial optimization platform** · Andritz
-Plant sensor reads were degrading in SQL Server and calibration still depended on
-manual operator adjustment. Split the write path into Kafka streaming plus a dedicated
-InfluxDB time-series store, with AI/ML optimization feeding calibration back to
-operators. **3x faster analytical queries, 40% less manual calibration time.**
+**Ecossistema de agentes da engenharia** · Marlabs / PracticeTek
+Claude Code e Codex com mais de 40 skills, times de agentes especializados (revisão, SRE,
+DevOps, QA) e integrações MCP com Jira, Datadog, Playwright e Azure, sobre uma stack de .NET 8,
+PHP, Next.js, Azure e AWS ECS Fargate, com Terraform e 54 workflows no GitHub Actions.
 
-**CSOnline, enterprise integration** · Stefanini / Raízen
-SAP, Salesforce and Pix payments had to converge into one fuel distribution platform
-without coupling the systems to each other. Event-driven core: the .NET API publishes
-to Azure Service Bus topics, independent workers consume at-least-once with dead-letter
-handling, so a slow downstream never blocks a payment. **13,000+ monthly users.**
+**Plataforma de otimização industrial** · Andritz
+As leituras de sensores da planta degradavam no SQL Server e a calibração ainda dependia de
+ajuste manual do operador. Separei o caminho de escrita com streaming em Kafka para um store
+de série temporal no InfluxDB, com otimização AI/ML devolvendo a calibração aos operadores.
+**Queries analíticas 3x mais rápidas e 40% menos tempo de calibração manual.**
 
-**Conversational automation** · Sonda
-Claro, Vivo, Embraer and Sodexo needed to absorb high interaction volumes without
-growing support headcount. Intent handling and dialog flows in ASP.NET orchestrated
-through Blip, with explicit fallback routing so anything the classifier could not match
-reached a human instead of failing.
+**IA em produção para e-commerce**
+Uma API MCP que deixa agentes de IA fazerem pedidos, busca semântica com Azure OpenAI e um
+pipeline com Claude que valida 13 mil imagens de produto. Migrei uma VM IIS legada para o Azure
+App Service, com slot swap sem downtime e deploy por OIDC federado.
 
-Each one is drawn as a real architecture diagram on [lkuranaga.com](https://www.lkuranaga.com).
+**CSOnline, integração enterprise** · Stefanini / Raízen
+SAP, Salesforce e pagamentos Pix convergindo numa plataforma de distribuição de combustíveis.
+A API .NET publica em tópicos do Azure Service Bus e workers independentes consomem com
+at-least-once e dead-letter, então um sistema lento nunca trava um pagamento.
+**Mais de 13 mil usuários por mês.**
 
-## Agentic engineering
+**Produtos de IA generativa** · Stefanini
+Speech analytics (S3 → Transcribe → SQS → GPT) auditando ligações de mais de 20 operações de
+BPO, triagem de incidentes do ServiceNow para a Petrobras e análise de contestação de conta
+para a Comgás.
 
-Most engineers consume AI tools. I build the harness they run on.
+## Open source e projetos acadêmicos
 
-- **Custom agent tooling** — MCP servers, subagents, hooks and reusable skills on the Claude Agent SDK
-- **Harness & loop engineering** — a CLI-first agentic pipeline adopted by the team: design context via MCP, automated code review, Playwright E2E, spec-driven delivery
-- **Evaluation & guardrails** — regression prompt suites, deterministic assertions over structured responses, review gates that block off-spec generations before merge
-- **Retrieval** — Azure AI Search with RAG patterns: chunking, embeddings, vector search
-- **AI security** — least-privilege tool scoping and human-in-the-loop approval on agent workflows
+- 🏆 **[TC Agro](https://github.com/rdpresser/tc-agro-solutions)** · 1º lugar no Hackathon FIAP 8NETT. Plataforma IoT agrícola em microsserviços .NET 10: TimescaleDB, Outbox (Wolverine/RabbitMQ), Kubernetes + ArgoCD, OpenTelemetry e React Native.
+- **[FIAP Cloud Games](https://github.com/leandrokuranaga/FCG)** · de monólito a 5 microsserviços: gateway YARP, Stripe com Outbox + SQS, Event Sourcing (KurrentDB), Lambda e AWS EKS. Repositórios: [FCG](https://github.com/leandrokuranaga/FCG), [CRM](https://github.com/leandrokuranaga/Fiap-CRM), [Payment](https://github.com/leandrokuranaga/Fiap-Payment), [Events](https://github.com/leandrokuranaga/Fiap-Events) e [Proxy](https://github.com/leandrokuranaga/Fiap-Proxy).
+- **[CareerAI](https://github.com/leandrokuranaga/careermentor-back)** · análise de currículo e coach de carreira com Semantic Kernel e OpenAI ([front-end](https://github.com/leandrokuranaga/careermentor-ai)).
+- **[Delivery Book](https://github.com/leandrokuranaga/Puc-delivery-book)** · projeto integrador da PUC-SP, .NET com Clean Architecture + React.
+- **[MX7](https://github.com/leandrokuranaga/Tcc-unip)** · TCC na UNIP, React Native + Node.js, depois reescrito em [.NET](https://github.com/leandrokuranaga/unip-backend-tcc).
+
+## Engenharia de agentes
+
+A maioria dos engenheiros consome ferramentas de IA. Eu construo o harness em que elas rodam.
+
+- **Ferramental de agentes** — MCP servers, subagentes, hooks e skills reutilizáveis sobre o Claude Code e o Claude Agent SDK
+- **Times de agentes** — agentes de revisão, SRE, DevOps e QA ligados a Jira, Datadog, Playwright e Azure via MCP
+- **Avaliação e guardrails** — suítes de prompts de regressão, asserções determinísticas sobre respostas estruturadas e gates de revisão antes do merge
+- **Segurança de IA** — ferramentas com menor privilégio e aprovação humana nos fluxos de agentes
 
 ## Stack
 
-Ranked by how deep the ownership goes, not alphabetically.
+Ordenada pela profundidade de domínio, não em ordem alfabética.
 
-**Core** — .NET 8 / Core, C#, Azure, SQL Server, event-driven architecture, DDD, CQRS, REST APIs, xUnit
+**Domínio** — .NET 8/10, C#, ASP.NET Core, Azure, SQL Server, arquitetura orientada a eventos, microsserviços, DDD, CQRS, APIs REST, xUnit
 
-**Fluent** — Claude Agent SDK, MCP servers, Semantic Kernel, Azure AI Search, Azure AI Foundry, LLM evaluation, guardrails, RAG, Python, React, TypeScript, Angular, Service Bus, Kafka, Redis, PostgreSQL, InfluxDB, Terraform, AWS, Docker, Playwright, Git / CI-CD
+**Fluente** — Claude Code, MCP, Semantic Kernel, OpenAI/Azure OpenAI, avaliação de LLM, AWS (EKS, ECS, Lambda, SQS), Kubernetes, Helm, Terraform, GitHub Actions, Azure Service Bus, Kafka, RabbitMQ, Redis, PostgreSQL, InfluxDB, React, Next.js, Angular, Vue, TypeScript, Module Federation, Playwright, Testcontainers, Datadog, OpenTelemetry, Docker
 
-**Exposed** — Kubernetes, MongoDB, ElasticSearch, KurrentDB, Blip, SAP / Salesforce
+**Contato** — PHP, Rust/Tauri, MongoDB, Elasticsearch, KurrentDB, Blip, SAP / Salesforce
 
-## Education
+## Formação
 
-Postgraduate in Quantum Computing (PUC Minas, from Sep 2026) · Specialization in
-Software Architecture (FIAP) · Postgraduate in Software Engineering (PUC-SP) ·
-B.Sc. Computer Science (UNIP)
+- **Computação Quântica**, pós-graduação · PUC Minas (em andamento)
+- **Arquitetura de Software**, pós-graduação · FIAP (2025–2026)
+- **Engenharia de Software**, especialização · PUC-SP (2021–2022)
+- **Ciência da Computação**, bacharelado · UNIP (2016–2020)
+
+Certificações: Anthropic (Introduction to MCP, Claude Code in Action, Agent Skills, AI Fluency) · EF SET C1 em inglês
