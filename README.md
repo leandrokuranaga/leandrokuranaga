@@ -1,6 +1,6 @@
 # Leandro Kuranaga
 
-**AI Engineer · Senior Software Engineer.** 8+ years shipping .NET systems to production on
+**FDE · AI Engineer · Senior Software Engineer.** 8+ years shipping .NET systems to production on
 Azure and AWS, and building the agent tooling that runs on top of them: MCP servers, agent
 teams, evaluation suites and guardrails.
 
